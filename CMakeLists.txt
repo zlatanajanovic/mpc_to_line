@@ -5,6 +5,7 @@ cmake_minimum_required (VERSION 3.5)
 # -g allows for gdb debugging
 # turn on -03 for best performance
 add_definitions(-std=c++11)
+add_definitions(-DMATPLOTLIBCPP_PYTHON_HEADER=/usr/include/python3.5/Python.h)
 
 set(CXX_FLAGS "-Wall")
 set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
